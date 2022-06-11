@@ -1,0 +1,72 @@
+/*ブラウザがそれぞれ持っているCSSをリセットする記述*/
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*headr要素*/
+.header{
+  width: 100%;/*横幅いっぱい*/
+  height: 120px;/*高さ120px*/
+  background-color: red;/*背景を赤*/
+}
+
+/*header子要素*/
+.header-top{
+  width:100%;
+  height:70px;
+  background-color: hotpink;
+}
+
+.header-bottom{
+  width:100%;
+  height:50px;
+  background-color: pink;
+}
+
+/*main-visual要素*/
+.main-visual{
+  width: 100%;/*横幅いっぱい*/
+  height: 300px;/*高さ300px*/
+  background-color: orange;/*背景をオレンジ*/
+}
+
+/*main-visual-content子要素*/
+.main-visual-content{
+  width: 350px;
+  height: 300px;
+  background-color: gold;
+}
+
+/*main要素*/
+.main{
+  width: 840px;/*横幅840px*/
+  /*background-coler,heightの指定を解除*/
+
+  height: 1400px;/*高さ1400px*/
+
+  display: flex;/*Flexの利用*/
+  justify-content:center;/*子要素を横並び・中央寄せ*/
+  margin: 0 auto;/*中央寄せ（左右に余白ありの場合可）*/
+}
+
+/*main子要素*/
+.blog{
+  width: 600px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+.sidebar{
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+/*footer要素*/
+.footer{
+  width: 100%;/*横幅いっぱい*/
+  height: 120px;/*高さ120px*/
+  background-color: blue;/*背景を青*/
+}
